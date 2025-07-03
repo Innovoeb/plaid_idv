@@ -1,4 +1,4 @@
-<div style="text-align: center;">
+<div style="text-align: center; display: flex; justify-content: center">
   <img src="pics/plaid-bg1x.jpg" alt="plaid logo" style="width: 200px; height: 200px; object-fit: cover; margin: 15px; display: inline-block;">
   <img src="pics/react.png" alt="react logo" style="width: 200px; height: 200px; object-fit: cover; margin: 15px; display: inline-block;">
   <img src="pics/express.png" alt="express logo" style="width: 200px; height: 200px; object-fit: cover; margin: 15px; display: inline-block;">
