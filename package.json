@@ -1,8 +1,13 @@
 {
-  "name": "plaididv-plaidmonitor",
+  "name": "plaididv",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
+  "workspaces": [
+    "client", 
+    "server"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "concurrently  \"cd client && npm run dev\" \"cd server && node src/index.js \" --names React,Node --prefix-colors red,#FFA500"
@@ -13,9 +18,5 @@
   "type": "module",
   "devDependencies": {
     "concurrently": "^9.2.0"
-  },
-  "workspaces": [
-    "client/*", 
-    "server/*"
-  ]
+  }
 }
