@@ -1,7 +1,7 @@
 <div style="text-align: center">
-  <img src="pics/plaid-bg1x.jpg" alt="plaid logo" style="width: 150px; height: 150px; object-fit: cover; margin: 0 15px; display: inline-block;">
-  <img src="pics/react.png" alt="react logo" style="width: 150px; height: 150px; object-fit: cover; margin: 0 15px; display: inline-block;">
-  <img src="pics/express.png" alt="express logo" style="width: 150px; height: 150px; object-fit: cover; margin: 0 15px; display: inline-block;">
+  <img src="pics/plaid-bg1x.jpg" alt="plaid logo" style="width: 200px; height: 200px; object-fit: cover; margin: 0 50px; display: inline-block;">
+  <img src="pics/react.png" alt="react logo" style="width: 200px; height: 200px; object-fit: cover; margin: 0 50px; display: inline-block;">
+  <img src="pics/express.png" alt="express logo" style="width: 200px; height: 200px; object-fit: cover; margin: 0 50px; display: inline-block;">
 </div>
 
 ## Plaid Identity Verification w/ React.js & Express.js
