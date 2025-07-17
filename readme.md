@@ -10,12 +10,19 @@ Proof of concept application using the Plaid Identity Verification UX in React.j
 ![Alt text for the GIF](pics/plaid-idv.gif)
 
 ### Node.js Installation
-1. `git clone git@github.com:Innovoeb/plaid_idv.git`
-2. `npm i` within root directory of cloned repo 
+1. 
+```
+git clone git@github.com:Innovoeb/plaid_idv.git
+```
+2. within root directory of cloned repo
+```
+npm i
+``` 
 3. create a .env file within the server/ directory and include Plaid API developer credentials with the key names of `PLAID_client_id` and `PLAID_secret_key`
 - https://dashboard.plaid.com/developers/keys 
-4. `npm start` within root directory of cloned repo to start the application
+4. ```npm start``` within root directory of cloned repo to start the application.
 
+<br>
 Example web app (client) will run on **localhost:5173** while the internal REST api (server) will run on **localhost:3000**
 
 
